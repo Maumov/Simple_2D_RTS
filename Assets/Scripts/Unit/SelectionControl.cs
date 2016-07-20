@@ -6,9 +6,10 @@ public class SelectionControl: MonoBehaviour
 {
 	public bool selected;
 	public bool highlighted;
+	PlayerUnitControl unitControl;
     void Start()
     {
-		
+		unitControl = GameObject.FindObjectOfType<PlayerUnitControl>();
     }
     // Update is called once per frame
     void Update()
@@ -39,6 +40,7 @@ public class SelectionControl: MonoBehaviour
 		}
     }
 	void Selected(){
+		unitControl.Add(gameObject);
 		Debug.Log (name + " got selected ");
 	}
 	void Highlight(){
