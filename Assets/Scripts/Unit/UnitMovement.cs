@@ -13,7 +13,7 @@ public class UnitMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 
 	public void SetDestination(Vector3 dest){

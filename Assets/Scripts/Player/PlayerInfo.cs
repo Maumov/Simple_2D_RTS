@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
-public class PlayerUnitControl : MonoBehaviour {
-	List<GameObject> Selected;
+public class PlayerInfo : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 	
@@ -11,6 +10,6 @@ public class PlayerUnitControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+	
 	}
 }
